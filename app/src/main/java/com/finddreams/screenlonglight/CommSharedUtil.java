@@ -1,8 +1,5 @@
 package com.finddreams.screenlonglight;
 
-/**
- * Created by JiePier on 16/12/6.
- */
 
 import android.content.Context;
 import android.content.SharedPreferences;
