@@ -1,2 +1,2 @@
 # ScreenLongLight
-Android的屏幕常亮功能
+完美实现Android的屏幕常亮功能

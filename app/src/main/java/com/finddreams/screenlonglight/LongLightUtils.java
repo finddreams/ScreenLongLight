@@ -30,6 +30,7 @@ public class LongLightUtils {
      * 打开休眠锁只能保持手机不休眠
      * @param context
      */
+    @Deprecated
     public static void openWakeLock(Context context) {
         PowerManager powerManager = (PowerManager) context.getSystemService(Service.POWER_SERVICE);
         PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "My Lock");
@@ -44,6 +45,7 @@ public class LongLightUtils {
      * 关闭休眠锁
      * @param context
      */
+    @Deprecated
     public static void closeWakeLock(Context context) {
         PowerManager powerManager = (PowerManager) context.getSystemService(Service.POWER_SERVICE);
         PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "My Lock");
