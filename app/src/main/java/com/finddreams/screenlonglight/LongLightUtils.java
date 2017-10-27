@@ -36,7 +36,6 @@ public class LongLightUtils {
         PowerManager.WakeLock wakeLock = powerManager.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK, "My Lock");
         //是否需计算锁的数量
         wakeLock.setReferenceCounted(false);
-
         //请求常亮，onResume()
         wakeLock.acquire();
     }
