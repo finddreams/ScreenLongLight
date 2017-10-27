@@ -25,7 +25,7 @@ public class MyApplication extends Application{
 
             @Override
             public void onActivityResumed(Activity activity) {
-                LongLightUtils.keepScreenLongLight(activity);
+//                LongLightUtils.keepScreenLongLight(activity);
             }
 
             @Override

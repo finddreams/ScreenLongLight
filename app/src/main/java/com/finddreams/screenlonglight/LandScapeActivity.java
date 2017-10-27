@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class LandScapeActivity extends AppCompatActivity {
+public class LandScapeActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
